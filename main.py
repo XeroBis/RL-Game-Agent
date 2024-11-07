@@ -7,7 +7,7 @@ def main(args):
     env = gym.make(args.env_name)
     agent = DQNAgent(env)
     agent.train()
-    print("Agent :", args.agent)
+    print("Agent :", "DQN")
     print("Env :", args.env_name)
     agent.evaluate()
 

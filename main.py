@@ -1,6 +1,5 @@
 import argparse
 from agents.dqn_agent import DQNAgent
-
 import gym
 
 def main(args):
